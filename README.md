@@ -1,4 +1,5 @@
-:set tabstop=4                                                                                                                                                                                                                              
+```
+:set tabstop=4                          
 :set softtabstop=4
 :set shiftwidth=4
 :set expandtab
@@ -19,3 +20,4 @@ set cursorcolumn
 " NERDTree
 map <F10> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") &&b:NERDTreeType == "primary") | q | endif
+```
